@@ -46,8 +46,8 @@ file.addEventListener('change', function(){
     }
 });
 function btn(){
-    alert("working");
+    alert("i made changes");
     var image = document.querySelector('.img').src;
-    location.href = 'https://wa.me/+2347045649462?text='+image+'Hello,%20my%20name%20is%20and%20i%20want%20to%20sew%20of%20this%20native';
+    location.href = 'https://wa.me/+2347045649462?text='Hello,%20my%20name%20is%20and%20i%20want%20to%20sew%20of%20this%20native'+image+'%20';
   
 }
